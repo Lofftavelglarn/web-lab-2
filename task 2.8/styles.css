@@ -1,0 +1,43 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blueLeft
+{
+    display: table-cell;
+    background-color: aqua;
+    width:200px;
+}
+.content
+{
+    display: table;
+    margin: 10px 7px 10px 10px;
+}
+
+.text
+{
+    background-color: darkgray;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.table
+{
+    height: fit-content;
+    background-color:bisque;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+}
+
+footer
+{
+    clear: both;
+    background-color: limegreen;
+    height: 45px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}

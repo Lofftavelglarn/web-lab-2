@@ -1,0 +1,65 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.tableBlock
+{
+    display: table-cell;
+    background-color: aqua;
+    width:470px;
+}
+.content
+{
+    display: table;
+    margin: 10px;
+    border: 1px solid limegreen;
+}
+
+.textWithImage
+{
+    background-color: darkgray;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.table
+{
+    background-color:bisque;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+}
+
+img
+{
+    display: block;
+    width: 700px;
+    float: right;
+}
+.textBlock
+{
+    clear: both;
+}
+
+@media (max-width:1500px)
+{
+    .textBlock
+    {
+        clear:none;
+    }
+    img
+    {
+        width:200px;
+        height: 200px;
+    }
+    .tableBlock
+    {
+        width: fit-content;
+    }
+    .table
+    {
+        padding-right: 15px;
+    }
+}

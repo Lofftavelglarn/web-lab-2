@@ -1,0 +1,21 @@
+.content
+{
+    display: table;
+    border: 1px solid forestgreen;
+}
+.text
+{
+    display: table-cell;
+    vertical-align: top;
+    background-color: aqua;
+    width: 100%;
+}
+p
+{
+    margin: 0;
+}
+.image
+{
+    height: 265px;
+    width: 300px;
+}

@@ -1,0 +1,56 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.content
+{
+    display: table;
+    margin: 5px;
+    border: 1px solid forestgreen;
+    background-color: aqua;
+}
+
+.text
+{
+    background-color: darkgray;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.table
+{
+    height: fit-content;
+    background-color:bisque;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    width:470px;
+}
+
+@media (max-width:600px)
+{
+    .content, .fluid
+    {
+        display: block;
+    }
+
+    .table
+    {
+        width: 100%;
+        background-color: aqua;
+        padding: 0;
+        height: 36px;
+    }
+    ul
+    {
+        background-color: bisque;
+        padding-left: 40px;
+        margin-top: 18px;
+    }
+    li
+    {
+        display: inline;
+    }
+}

@@ -1,0 +1,30 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.content
+{
+    color: white;
+}
+
+.greenBlock
+{
+    background-color: green;
+}
+
+.blueBlock
+{
+    background-color: blue;
+
+    border:50px solid blue;
+}
+
+div
+{
+    margin-left:auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: 20px;
+}

@@ -1,0 +1,74 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    color:white;
+    box-sizing: border-box;
+}
+
+section > div:nth-child(1)
+{
+    position: static;
+    width:150px;
+    height: 100px;
+    background-color: blueviolet;
+    margin-top: 9px;
+}
+
+section > div:nth-child(2)
+{
+    position: relative;
+    width:150px;
+    height: 100px;
+    background-color: darkred;
+}
+
+div:nth-child(2) > div:nth-child(1)
+{
+    position: relative;
+    width:150px;
+    height: 100px;
+    background-color: peru;
+    top:50px;
+    left: 30px;
+}
+
+section > div:nth-child(3)
+{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: indianred;
+    top:100px;
+    z-index: 1;
+}
+
+section > div:nth-child(3) > div
+{
+    position: absolute;
+    background-color: indigo;
+    right:0;
+    top: 120px;
+    width: 301px;
+    height:200px;
+    z-index: 1;
+}
+
+section > div:nth-child(4)
+{
+    position: fixed;
+    width: 97px;
+    height: 100px;
+    background-color: forestgreen;
+    bottom:0;
+    right:0;
+}
+
+div
+{
+    margin-left: 5px;
+}
+.fixedDiv
+{
+    margin: 0;
+}

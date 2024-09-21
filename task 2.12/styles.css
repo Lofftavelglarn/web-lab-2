@@ -1,0 +1,53 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.content
+{
+    display: table;
+    margin: 10px;
+    border: 1px solid forestgreen;
+    background-color: aqua;
+}
+.text, .table
+{
+    margin-right: 5px;
+}
+.text
+{
+    background-color: darkgray;
+}
+.textBlock
+{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.table
+{
+    background-color:bisque;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    width: 435px;
+}
+
+@media (max-width:600px)
+{
+    .textBlock
+    {
+        display: block;
+        width: 75%;
+    }
+    .table
+    {
+        width: fit-content;
+        padding-right: 15px;
+    }
+    .content
+    {
+        display: block;
+    }
+}
